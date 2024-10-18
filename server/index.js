@@ -36,6 +36,6 @@ io.on("connection", (socket) => {
 });
 
 const PORT = 3001;
-server.listen(PORT, () => {
+server.listen(PORT || 4000, () => {
   console.log("SERVER RUNNING");
 });
